@@ -10,9 +10,14 @@ class Printer{
   
     //Just like printers, this printer has a function that 
     //prints an example text to make sure the printer is working
+   
     printerTest() { 
         return `My brand is ${this._brand} and my model ${this._model}`; 
     } 
 }
 
 //Your code here
+
+ const myPrinter = new Printer();
+    let testResult = myPrinter.printerTest();
+    console.log (testResult);

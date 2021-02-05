@@ -8,7 +8,9 @@ class Printer{
     	this._model = 'TX-200'; //will be a string 
     }
     
-    //you can add new functions here
+   getModel() {
+      return this._model;
+    }
   
     printerTest() { 
         return `My brand is ${this._brand} and my model ${this._model}`; 
